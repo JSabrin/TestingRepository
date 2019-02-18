@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;abcd.Class&apos; to &apos;BasicBeginningTesting&apos;&#x0D;&#x0A;- Original project: &apos;SeleniumTesting&apos;&#x0D;&#x0A;- Original element: &apos;abcd.Class&apos;&#x0D;&#x0A;- Renamed element: &apos;abcd.BasicBeginningTesting&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Class&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;abcd{Class.java[Class" matchStrategy="1" name="BasicBeginningTesting" qualified="false" references="true" similarDeclarations="false" stamp="1548030165253" textual="false" version="1.0"/>
+</session>

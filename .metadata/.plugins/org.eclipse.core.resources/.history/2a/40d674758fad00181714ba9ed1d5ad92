@@ -1,0 +1,44 @@
+package SeleniumSessions;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+
+public class DragAndDropConcept {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\All Drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver(); // launch browser
+		
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS); //dynamic wait
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		
+		driver.get("http://jqueryui.com/droppable/"); //enter url
+		
+		//Handle drag and drop:
+		
+		//basically drag and drop based on source and target method.
+		//if any frame in the application page then use that syntax --for change from regular page to 
+		//then create Actions object with reference of action with Actions class.
+		
+		driver.switchTo().frame(0);
+		
+		Actions action = new Actions(driver);
+		
+		//click -> move -> release -> build -> perform
+		action.clickAndHold(driver.findElement(By.xpath("//*[@id='draggable']")))
+		.moveToElement(driver.findElement(By.xpath("//*[@id='droppable']")))
+		.release()
+		.build()
+		.perform();
+		
+	}
+
+}

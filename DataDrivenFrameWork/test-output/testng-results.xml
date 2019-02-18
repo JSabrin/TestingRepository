@@ -1,0 +1,543 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="9" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="74726" started-at="2018-05-22T07:17:41Z" finished-at="2018-05-22T07:18:56Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="74726" started-at="2018-05-22T07:17:41Z" finished-at="2018-05-22T07:18:56Z">
+      <class name="com.data.driven.test.HalfEbayTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="setUp" is-config="true" duration-ms="6979" started-at="2018-05-22T07:17:42Z" finished-at="2018-05-22T07:17:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="halfEbayRegPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="halfEbayRegPageTest" duration-ms="1254" started-at="2018-05-22T07:17:49Z" data-provider="getTestData" finished-at="2018-05-22T07:17:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tom]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kim]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[12 new street]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[downtown]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sunnyside]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[14555.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- halfEbayRegPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="tearDown" is-config="true" duration-ms="707" started-at="2018-05-22T07:17:50Z" finished-at="2018-05-22T07:17:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="setUp" is-config="true" duration-ms="6248" started-at="2018-05-22T07:17:51Z" finished-at="2018-05-22T07:17:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="halfEbayRegPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="halfEbayRegPageTest" duration-ms="1161" started-at="2018-05-22T07:17:57Z" data-provider="getTestData" finished-at="2018-05-22T07:17:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Asma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Akter]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[13 new street]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[downtown]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sunnyside]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[14556.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test2@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- halfEbayRegPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="tearDown" is-config="true" duration-ms="690" started-at="2018-05-22T07:17:58Z" finished-at="2018-05-22T07:17:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="setUp" is-config="true" duration-ms="6160" started-at="2018-05-22T07:17:59Z" finished-at="2018-05-22T07:18:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="halfEbayRegPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="halfEbayRegPageTest" duration-ms="1155" started-at="2018-05-22T07:18:05Z" data-provider="getTestData" finished-at="2018-05-22T07:18:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jakir]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sm]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[14 new street]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[downtown]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sunnyside]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[5488.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test3@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- halfEbayRegPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="tearDown" is-config="true" duration-ms="746" started-at="2018-05-22T07:18:06Z" finished-at="2018-05-22T07:18:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="setUp" is-config="true" duration-ms="5624" started-at="2018-05-22T07:18:07Z" finished-at="2018-05-22T07:18:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="halfEbayRegPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="halfEbayRegPageTest" duration-ms="1119" started-at="2018-05-22T07:18:12Z" data-provider="getTestData" finished-at="2018-05-22T07:18:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sohag]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kabir]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15 new street]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[downtown]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sunnyside]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2222.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test4@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- halfEbayRegPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="tearDown" is-config="true" duration-ms="671" started-at="2018-05-22T07:18:13Z" finished-at="2018-05-22T07:18:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="setUp" is-config="true" duration-ms="5689" started-at="2018-05-22T07:18:14Z" finished-at="2018-05-22T07:18:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="halfEbayRegPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="halfEbayRegPageTest" duration-ms="1138" started-at="2018-05-22T07:18:20Z" data-provider="getTestData" finished-at="2018-05-22T07:18:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Steve]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jay]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[16 new street]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[downtown]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sunnyside]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[55555.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test5@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- halfEbayRegPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="tearDown" is-config="true" duration-ms="680" started-at="2018-05-22T07:18:21Z" finished-at="2018-05-22T07:18:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="setUp" is-config="true" duration-ms="5472" started-at="2018-05-22T07:18:22Z" finished-at="2018-05-22T07:18:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="halfEbayRegPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="halfEbayRegPageTest" duration-ms="1178" started-at="2018-05-22T07:18:27Z" data-provider="getTestData" finished-at="2018-05-22T07:18:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[James]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[B]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[17 new street]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[downtown]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sunnyside]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[47555.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test6@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- halfEbayRegPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="tearDown" is-config="true" duration-ms="676" started-at="2018-05-22T07:18:28Z" finished-at="2018-05-22T07:18:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="setUp" is-config="true" duration-ms="6029" started-at="2018-05-22T07:18:29Z" finished-at="2018-05-22T07:18:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="halfEbayRegPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="halfEbayRegPageTest" duration-ms="1171" started-at="2018-05-22T07:18:35Z" data-provider="getTestData" finished-at="2018-05-22T07:18:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Stephanie]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Brown]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[18 new street]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[downtown]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sunnyside]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[78952.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test7@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- halfEbayRegPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="tearDown" is-config="true" duration-ms="670" started-at="2018-05-22T07:18:36Z" finished-at="2018-05-22T07:18:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="setUp" is-config="true" duration-ms="5751" started-at="2018-05-22T07:18:37Z" finished-at="2018-05-22T07:18:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="halfEbayRegPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="halfEbayRegPageTest" duration-ms="1151" started-at="2018-05-22T07:18:43Z" data-provider="getTestData" finished-at="2018-05-22T07:18:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Resma]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Hyder]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[19 new street]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[downtown]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[sunnyside]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[California]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[45863.0]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[test8@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- halfEbayRegPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="tearDown" is-config="true" duration-ms="690" started-at="2018-05-22T07:18:44Z" finished-at="2018-05-22T07:18:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="setUp" is-config="true" duration-ms="5881" started-at="2018-05-22T07:18:44Z" finished-at="2018-05-22T07:18:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="halfEbayRegPageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="halfEbayRegPageTest" duration-ms="4905" started-at="2018-05-22T07:18:50Z" data-provider="getTestData" finished-at="2018-05-22T07:18:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Cannot locate element with text: 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'LAPTOP-A6RHJ6KB', ip: '192.168.130.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Cannot locate element with text: 
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'LAPTOP-A6RHJ6KB', ip: '192.168.130.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_144'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:151)
+at com.data.driven.test.HalfEbayTest.halfEbayRegPageTest(HalfEbayTest.java:58)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- halfEbayRegPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.data.driven.test.HalfEbayTest@7e2d773b]" name="tearDown" is-config="true" duration-ms="539" started-at="2018-05-22T07:18:55Z" finished-at="2018-05-22T07:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.data.driven.test.HalfEbayTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

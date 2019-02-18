@@ -1,0 +1,26 @@
+package SeleniumSessions;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class CustomXpath {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\All Drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver(); // launch browser
+		
+		driver.manage().window().maximize();
+		driver.manage().deleteAllCookies();
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS); //dynamic wait
+		
+		driver.get("https://www.ebay.com/"); //enter url
+		
+		
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;JavaSessions.LoopingConcept&apos; to &apos;LoopsConcept&apos;&#x0D;&#x0A;- Original project: &apos;PracticeSessions&apos;&#x0D;&#x0A;- Original element: &apos;JavaSessions.LoopingConcept&apos;&#x0D;&#x0A;- Renamed element: &apos;JavaSessions.LoopsConcept&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;LoopingConcept&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;JavaSessions{LoopingConcept.java[LoopingConcept" matchStrategy="1" name="LoopsConcept" qualified="false" references="true" similarDeclarations="false" stamp="1529715788049" textual="false" version="1.0"/>
+</session>

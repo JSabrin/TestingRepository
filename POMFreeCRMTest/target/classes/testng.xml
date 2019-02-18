@@ -1,0 +1,32 @@
+
+ <!-- This is call testng.xml templet file. It is also called runner class. In same project we have multiple class
+ so all that classes we can execute in sequence manner with this runner class.
+ -->
+
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  
+  <suite name="FREE CRM Application Test Automation suite">
+	
+	<listeners>
+	
+	<listener class-name="com.qa.ExtentReportListener.ExtentReportListener"> </listener>
+	
+	</listeners>
+	
+
+  <test name="FREE CRM App Test Cases">
+		
+		<classes>
+		
+		<class name="com.crm.qa.testcases.LoginPageTest" ></class>
+		<class name="com.crm.qa.testcases.HomePageTest" ></class>
+	    <class name="com.crm.qa.testcases.ContactsPageTest" ></class>
+		
+		</classes>
+	
+	</test> 
+	
+ </suite> 
+           

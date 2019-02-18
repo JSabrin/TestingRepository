@@ -1,0 +1,38 @@
+package SeleniumSessions;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class ImplicitWaitConcept {
+
+	public static void main(String[] args) {
+		
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\All Drivers\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver(); // launch browser
+		
+		driver.manage().window().maximize(); //maximize the windows
+		driver.manage().deleteAllCookies(); //delete all the cookies
+		
+		//Dynamic Wait:
+		
+		//PageLoad timeOut: -- it is a dynamic global wait.Once the page is fully loaded within maximize 40 seconds then performs an Action.
+		//Let's see page is so heavy it's take more than 40 seconds,then it will give you error.
+		//But it is a dynamic nature (40 seconds), like page is finish loaded within 2 seconds so rest of the 38 seconds will be ignore 
+		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS); //for all the page loaded
+		
+		//implicit wait: -- it is a dynamic global wait -- Implicitly Wait it is applicable for all the Element which are available on the page.
+		//suppose after the page fully loaded like Login Button this element is not visiable.. in that case we use implicit wait..we tell 
+		//selenium wait maximize time 20 seconds to perform an Action in the paricular element.
+		//ElementNotVisiableException when page not fully loaded, and element not found in that maximize time
+		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS); //dynamic wait //for all the element loaded
+	
+		driver.get("http://www.facebook.com"); //enter url
+		
+		
+		
+	}
+
+}

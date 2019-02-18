@@ -1,0 +1,50 @@
+package PracticeWithSelenium;
+
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BrokenLink {
+
+	public static void main(String[] args) {
+	
+		//setUp System.setProperty
+		System.setProperty("webdriver.chrome.driver", "C:\\All Drivers\\chromedriver.exe");
+        
+		//initialize browser
+		WebDriver driver = new ChromeDriver();
+		
+		//maximize the window
+		driver.manage().window().maximize();
+		
+		//delect all cookies on the webpage
+		driver.manage().deleteAllCookies();
+		
+		//wait time set for entire pageLoad
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+		
+		//wait time set for all the WebElement on this app
+		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+		
+		//get the URL
+		driver.get("https://www.google.com");
+		
+		//get the all links in the webpage
+		List<WebElement> links = driver.findElements(By.tagName("a"));
+		System.out.println(links.size());
+		
+		for(WebElement ele: links)
+			System.out.println(ele.getText());
+		
+		
+		
+		
+		
+		
+	}
+
+}
